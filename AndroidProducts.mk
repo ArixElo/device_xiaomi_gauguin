@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_gauguin.mk
+    $(LOCAL_DIR)/ssos_gauguin.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_gauguin-user \
-    spark_gauguin-userdebug \
-    spark_gauguin-eng
+    ssos_gauguin-user \
+    ssos_gauguin-userdebug \
+    ssos_gauguin-eng
