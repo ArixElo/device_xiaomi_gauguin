@@ -27,7 +27,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
     persist.sys.sf.disable_blurs=1 \
-    ro.sf.blurs_are_expensive=1  
+    ro.sf.blurs_are_expensive=1
 
 # Fingerprint Payment for China apps
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -38,9 +38,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q7250-19133-1
 
 # RIL
-PRODUCT_PRODUCTY_OVERRIDES += \
+PRODUCT_PRODUCT_OVERRIDES += \
     ro.telephony.default_network=33,22
 
-# Spark
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.spark.maintainer=Priyanshu
