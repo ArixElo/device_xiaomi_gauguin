@@ -16,6 +16,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/gauguin_user_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Inherit from the proprietary version
 include vendor/xiaomi/gauguin/BoardConfigVendor.mk
