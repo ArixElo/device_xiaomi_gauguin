@@ -632,26 +632,25 @@ vendor/etc/sensors/sns_reg_config
 
 # Sensors
 -system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
-vendor/bin/hw/android.hardware.sensors@1.0-service
 vendor/bin/sensors.qti
-vendor/etc/init/android.hardware.sensors@1.0-service.rc
+vendor/bin/sscrpcd
+vendor/bin/init.qcom.sensors.sh
 vendor/etc/elliptic_sensor.xml
-vendor/lib/hw/android.hardware.sensors@1.0-impl.so
-vendor/lib/libsensorcal.so
-vendor/lib/libsensorslog.so
-vendor/lib/libssc.so
-vendor/lib/libssc_default_listener.so
-vendor/lib/libssccalapi.so
-vendor/lib/sensors.ssc.so
-vendor/lib/sensors.touch.so
-vendor/lib64/hw/android.hardware.sensors@1.0-impl.so
+vendor/etc/init/vendor.sensors.qti.rc
+vendor/etc/init/vendor.sensors.sscrpcd.rc
+vendor/etc/sensors/hals.conf
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libsensorcal.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensorslog.so
+vendor/lib64/libsns_device_mode_stub.so
+vendor/lib64/libsns_fastRPC_util.so
+vendor/lib64/libsns_low_lat_stream_stub.so
+vendor/lib64/libsnsapi.so
+vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/libssccalapi.so
+vendor/lib64/libultrasound.so
 vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
