@@ -57,17 +57,28 @@ vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
-# Audio hardware
+# Audio
 vendor/lib/hw/audio.primary.lito.so
-vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so
+vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
 vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioroute_ext.so
+vendor/lib/libqtigef.so
+vendor/lib/libssrec.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
+vendor/lib/vndk/libxlog.so
 vendor/lib64/hw/audio.primary.lito.so
-vendor/lib64/liba2dpoffload.so
+vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
+vendor/lib64/libadiertac.so
+vendor/lib64/libaudcal.so
 vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libaudioconfigstore.so
 vendor/lib64/libaudioroute_ext.so
+vendor/lib64/libqtigef.so
+vendor/lib64/libssrec.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
 # Camera
@@ -144,7 +155,10 @@ vendor/lib/android.hardware.camera.provider@2.4-external.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/libMegviiFacepp-0.5.2.so
 vendor/lib/libalLDC.so
+vendor/lib/libalCFR.so
 vendor/lib/libalhLDC.so
+vendor/lib/libbitmlengine.so
+vendor/lib/libchilog.so
 vendor/lib/libcamera2ndk_vendor.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamerapostproc.so
@@ -162,6 +176,9 @@ vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2svarnn.so
 vendor/lib/libcapiv2vop.so
 vendor/lib/libcom.qti.chinodeutils.so
+vendor/lib/libdng_sdk2vendor.so
+vendor/lib/libvideofilter_only.so
+vendor/lib/libfocus.so
 vendor/lib/libgui_vendor.so
 vendor/lib/libmegface.so
 vendor/lib/libofflinelog.so
@@ -170,9 +187,12 @@ vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libsnsapi.so
 vendor/lib/libsnsdiaglog.so
+vendor/lib/libst_soft_isp_shared.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libswvdec.so
+vendor/lib/libwa_rtdof.so
 vendor/lib/libvideoutils.so
+vendor/lib/libxmi_high_dynamic_range.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.device@2.0.so
 vendor/lib/vendor.qti.hardware.camera.device@3.5.so
@@ -267,8 +287,12 @@ vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libSNPE.so
+vendor/lib64/libalCFR.so
+vendor/lib64/libalLDC.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
+vendor/lib64/libbitmlengine.so
+vendor/lib64/libchilog.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcamera_dirty.so
@@ -289,6 +313,9 @@ vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2svarnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libcom.qti.chinodeutils.so
+vendor/lib64/libdng_sdk2vendor.so
+vendor/lib64/libvideofilter_only.so
+vendor/lib64/libfocus.so
 vendor/lib64/libgui_vendor.so
 vendor/lib64/libmegface.so
 vendor/lib64/libmialgo_rfs.so
@@ -313,6 +340,7 @@ vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libswvdec.so
 vendor/lib64/libsymphony-cpu.so
 vendor/lib64/libvidhance.so
+vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.device@2.0.so
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
